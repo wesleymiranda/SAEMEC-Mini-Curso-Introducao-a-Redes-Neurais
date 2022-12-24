@@ -10,17 +10,19 @@ Disponibilização do código apresentado no curso Introdução à Redes Neurais
 
 ## Resumo do Curso
 
-No curso foi apresentada a teoria sobre redes neurais, seguida de um exercício que foi a criação de uma rede Multilayer Perceptron em Octave e em seguida utilizar esta rede para a leitura de QRCODE.
+O objetivo do curso foi apresentar a teoria sobre redes neurais,  seguida da recriação da primeira rede neural criada, a rede Multilayer Perceptron em Octave.
+
+Para fins didáticos, o exercício apresentado no curso foi realizado com a intenção de apresentar aos nossos colegas de curso uma possível solução para um problema de Wherehouse presente na competição IEEE Latin American Robotics Competition for Students 2022/2023, ao qual as imagens dos QRCODES pertencem. Onde uma das etapas para se chegar ao resultado pretendido é a leitura dos QRCODES disponibilizados, aí nasce a proposta do exercício de treinamento da rede com imagens.
 
 ## Assuntos abordados
 
-• O que é uma Rede Neural
-• Quais as aplicações de uma Rede Neural
-• Pré-processamento de dados para o treinamento de uma rede
-• Como criar a sua própria Rede Neural
-• Como treinar uma Rede Neural
-• Análise dos resultados obtidos pela rede
-
+• O que é uma Rede Neural;
+• Quais as aplicações de uma Rede Neural;
+• Pré-processamento de dados para o treinamento de uma rede;
+• Como criar a sua própria Rede Neural;
+• Como treinar uma Rede Neural;
+• Análise dos resultados obtidos pela rede;
+• Criação da rede Multilayer Perceptron.
 
 ## Resultados
 
@@ -34,7 +36,7 @@ Você pode acessar o site dos promotores do evento: [Instagram SAMEC](https://ww
 
 - ``Octave``
 
-# Autores
+# Apresentador
 
 | [<img src="https://avatars.githubusercontent.com/wesleymiranda" width=115><br><sub>Wesley Miranda Correa</sub>](https://github.com/wesleymiranda) |  
 | :---: |
