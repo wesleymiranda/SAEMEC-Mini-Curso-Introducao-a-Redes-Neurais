@@ -2,10 +2,6 @@
 
 ![Poster do Evento  - SAEMEC - CONNECT UFR 2022](https://github.com/wesleymiranda/SAEMEC-Mini-Curso-Introducao-a-Redes-Neurais/blob/main/img/Poster.jpeg)  
 
-### Universidade Federal de Rondonópolis (UFR)
-### Semana da Engenharia Mecânica (SAEMEC 2022)
-### Congresso de Ensino, Pesquisa Extensão e Inovação (CONNECT  2022)
-  
 Disponibilização do código apresentado no curso Introdução à Redes Neurais na SAEMEC(2022). 
 
 ## Resumo do Curso
@@ -17,12 +13,13 @@ Para fins didáticos, o exercício apresentado no curso foi realizado com a inte
 ## Assuntos abordados
 
 • O que é uma Rede Neural;
-• Quais as aplicações de uma Rede Neural;
-• Pré-processamento de dados para o treinamento de uma rede;
-• Como criar a sua própria Rede Neural;
-• Como treinar uma Rede Neural;
-• Análise dos resultados obtidos pela rede;
-• Criação da rede Multilayer Perceptron.
+
+• Quais as aplicações de uma Rede Neural;  
+• Pré-processamento de dados para o treinamento de uma rede;  
+• Como criar a sua própria Rede Neural;  
+• Como treinar uma Rede Neural;  
+• Análise dos resultados obtidos pela rede;  
+• Criação da rede Multilayer Perceptron.  
 
 ## Resultados
 
@@ -36,11 +33,16 @@ Você pode acessar o site dos promotores do evento: [Instagram SAMEC](https://ww
 
 - ``Octave``
 
-# Apresentador
+## Apresentador
 
 | [<img src="https://avatars.githubusercontent.com/wesleymiranda" width=115><br><sub>Wesley Miranda Correa</sub>](https://github.com/wesleymiranda) |  
 | :---: |
 
+## Agradecimentos
+
+Universidade Federal de Rondonópolis (UFR)
+Semana da Engenharia Mecânica (SAEMEC 2022)
+Congresso de Ensino, Pesquisa Extensão e Inovação (CONNECT  2022)
 
 ## Créditos  
 Copyright (C) 2018-Atualmente by Wesley Miranda
