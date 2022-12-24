@@ -12,8 +12,7 @@ Para fins didáticos, o exercício apresentado no curso foi realizado com a inte
 
 ## Assuntos abordados
 
-• O que é uma Rede Neural;
-
+• O que é uma Rede Neural;  
 • Quais as aplicações de uma Rede Neural;  
 • Pré-processamento de dados para o treinamento de uma rede;  
 • Como criar a sua própria Rede Neural;  
@@ -40,9 +39,9 @@ Você pode acessar o site dos promotores do evento: [Instagram SAMEC](https://ww
 
 ## Agradecimentos
 
-Universidade Federal de Rondonópolis (UFR)
-Semana da Engenharia Mecânica (SAEMEC 2022)
-Congresso de Ensino, Pesquisa Extensão e Inovação (CONNECT  2022)
+Universidade Federal de Rondonópolis (UFR).  
+Semana da Engenharia Mecânica (SAEMEC 2022).  
+Congresso de Ensino, Pesquisa Extensão e Inovação (CONNECT  2022).  
 
 ## Créditos  
 Copyright (C) 2018-Atualmente by Wesley Miranda
