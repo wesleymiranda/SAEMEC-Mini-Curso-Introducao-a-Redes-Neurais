@@ -1,48 +1,51 @@
+%===============================================================================
 %                   UNIVERSIDADE FEDERAL DE RONDONÓPOLIS
 %                       CURSO DE ENGENHARIA MECÂNICA
 %                 SEMANA ACADÊMICA DA ENGENHARIA MECÂNICA
 %                                SAEMEC 2022
+%===============================================================================
 
 
 %===============================================================================
-%                               CABEÇALHO
+%========================          CABEÇALHO            ========================
 %===============================================================================
-
-clear ; close all; clc;
+clear ; close all; clc;           #Limpeza da janela de comandos
 source("extras.m");
 
 
+
+%===============================================================================
+%========================      INICIALIZANDO A NN       ========================
+%===============================================================================
+tam_entrada = 20*20; tam_oculta = 20; tam_saida = 9; #Definindo o tamano da rede
+
+#W_inicial = inicializarPesos((tam_entrada+1)*tam_oculta +...
+#                             (tam_oculta + 1)*tam_saida); #inicializar rede com valores aleatórios de -1 a 1
+
+
+
+%===============================================================================
+%========================  EXTRAINDO SAIDAS E ENTRADAS  ========================
+%===============================================================================
+y = criarTabela(tam_saida);       #Tabela com os valores corretos de saída
+#X = extrairEntradasImg();         #Montar a tabela de entradas que a RN vai receber
+X = extrairEntradasArq();
+
+
+%===============================================================================
+%========================          TREINAMENTO          ========================
+%===============================================================================
+
+#W = treinamento(W_inicial, X, y, tam_entrada, tam_oculta, tam_saida);
+
+#salvarPesos(W)
+W = carregarPesosArq();
+
+%===============================================================================
+%=========================          VALIDAÇÃO          =========================
 %===============================================================================
 
 
+img = imread("./img/teste/teste 1 - simbolo 4.png");
+determinar(img, W, tam_entrada, tam_oculta, tam_saida);
 
-%                             INICIALIZANDO A NN
-%===============================================================================
-tam_camada_entrada = 20*20;
-tam_camada_oculta = 20;
-tam_camada_saida = 9;
-lambda = 1;
-
-W1_inicial = inicializarPesos(tam_camada_entrada, tam_camada_oculta);
-W2_inicial = inicializarPesos(tam_camada_oculta, tam_camada_saida);
-
-pesos_iniciais = [reshape(W1_inicial, numel(W1_inicial), 1);...
-                 reshape(W2_inicial, numel(W2_inicial), 1)];
-
-%===============================================================================
-%                        EXTRAINDO SAIDAS E ENTRADAS
-%===============================================================================
-tabela = criarTabela(tam_camada_saida);
-entradas = extrairEntradas();
-
-funcCusto = @(p) funcaoCusto(p, tam_camada_entrada, tam_camada_oculta, entradas, tabela, lambda);
-[pesosw] = fminunc(funcCusto, pesos_iniciais, optimset('MaxIter', 15));
-
-imgn = imread('.\img\CODES 2D\2.png');
-img_bn = threshold(imgn, 0.3);
-img_linha = reshape(img_bn, numel(img_bn), 1);
-img_linha = im2double(img_linha);
-
-
-#predini = predicao(img_linha, pesos_iniciais, tam_camada_entrada, tam_camada_oculta, tam_camada_saida);
-pred = predicao( X, pesosw, tam_camada_entrada, tam_camada_oculta, tam_camada_saida, tabela);
