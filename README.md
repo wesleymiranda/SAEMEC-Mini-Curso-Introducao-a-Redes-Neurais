@@ -1,6 +1,6 @@
 <h1 align="center"> CURSO INTRODUÇÃO À REDES NEURAIS </h1>
 
-![Poster do Evento  - SAEMEC - CONNECT UFR 2022](https://github.com/wesleymiranda/SAEMEC-Mini-Curso-Introducao-a-Redes-Neurais/blob/main/main/img/Poster.jpeg)  
+![Poster do Evento  - SAEMEC - CONNECT UFR 2022](https://github.com/wesleymiranda/SAEMEC-Mini-Curso-Introducao-a-Redes-Neurais/blob/main/img/Poster.jpeg)  
 
 ### Universidade Federal de Rondonópolis (UFR)
 ### Semana da Engenharia Mecânica (SAEMEC 2022)
@@ -24,7 +24,7 @@ No curso foi apresentada a teoria sobre redes neurais, seguida de um exercício 
 
 ## Resultados
 
-![REDE NEURAL QUE LÊ QRCODE](https://github.com/wesleymiranda/SAEMEC-Mini-Curso-Introducao-a-Redes-Neurais/blob/main/main/img/Resultado.png)  
+![REDE NEURAL QUE LÊ QRCODE](https://github.com/wesleymiranda/SAEMEC-Mini-Curso-Introducao-a-Redes-Neurais/blob/main/img/Resultado.png)  
 
 ## Sites de Divulgação do Evento
 
@@ -36,7 +36,7 @@ Você pode acessar o site dos promotores do evento: [Instagram SAMEC](https://ww
 
 # Autores
 
-| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Wesley Miranda Correa</sub>](https://github.com/wesleymiranda) |  
+| [<img src="https://avatars.githubusercontent.com/wesleymiranda" width=115><br><sub>Wesley Miranda Correa</sub>](https://github.com/wesleymiranda) |  
 | :---: |
 
 
